@@ -1,0 +1,33 @@
+{
+  "name": "imooc",
+  "version": "1.1.1",
+  "description": "imooc movie",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "jade": "^1.11.0",
+    "moment": "^2.18.1",
+    "mongodb": "^2.2.28",
+    "mongoose": "^4.10.6",
+    "underscore": "^1.8.3",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jarvis-JunZhu/imooc.git"
+  },
+  "keywords": [
+    "imooc"
+  ],
+  "author": "Jarvis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jarvis-JunZhu/imooc/issues"
+  },
+  "homepage": "https://github.com/Jarvis-JunZhu/imooc#readme"
+}
