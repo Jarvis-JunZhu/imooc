@@ -16,7 +16,7 @@ var UserSchema = new mongoose.Schema({
     // >50:super admin
     role:{
         type:Number,
-        default:0
+        default:51
     },
     meta    : {
         createdAt: {

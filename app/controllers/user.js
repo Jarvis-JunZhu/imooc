@@ -41,9 +41,8 @@ exports.signin = function (req, res) {
     User.findOne({name: name}, function (err, user) {
         if (err) console.log(err)
 
-        if (!user) {
-            return res.redirect('/signup')
-        }
+        if (!user) return res.redirect('/signup')
+        
 
         user.comparePassword(password, function (err, isMatch) {
             if (err) console.log(err)
